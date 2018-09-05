@@ -1,11 +1,11 @@
 
-$mdc-theme-primary: #FFCF44;
-$mdc-theme-on-primary: #33333D;
-$mdc-theme-secondary: #FFCF44;
+$mdc-theme-primary: #E5FCC2;
+$mdc-theme-on-primary: #FFFFFF;
+$mdc-theme-secondary: #9DE0AD;
 $mdc-theme-on-secondary: #FFFFFF;
-$mdc-theme-surface: #33333D;
+$mdc-theme-surface: #547980;
 $mdc-theme-on-surface: #FFFFFF;
-$mdc-theme-background: #33333D;
+$mdc-theme-background: #594F4f;
 $mdc-theme-on-background: #FFFFFF;
 
 @import "@material/button/mdc-button";
@@ -21,6 +21,7 @@ $mdc-theme-on-background: #FFFFFF;
 .app-list {
   @include mdc-image-list-masonry-columns(5);
   overflow: auto;
+  padding: 40px 60px 0 60px;
 }
 
 .header {
